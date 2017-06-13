@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JavaDesignMode</string>
+    <string name="stragegy_description">策略模式:\n&#160;&#160;实现同一个策略接口的的几个策略,各自实现其策略方法,
+        并用一个类管理这几个策略, 程序将要使用这几种策略时,只需要调用这个管理类固定的方法, 并传入某个策略就可以了</string>
+    <string name="proxy_description"> 代理模式: /n 实现同一个接口的两个类A,B, B中持有A的引用,
+        B的实现方法中实际上是调用A对象的对应方法,这时B就是A的代理,如果C要实现A的功能, 只要调用B就可以了(并将A传入B) </string>
+
 </resources>

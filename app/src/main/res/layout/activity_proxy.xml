@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="walden.com.javadesignmode.activity.ProxyActivity">
+
+    <Button
+        android:id="@+id/proxy_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dog_paly"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/proxy_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proxy_bt1"
+        android:layout_marginTop="5dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/proxy_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        tools:text="paly" />
+
+</RelativeLayout>
