@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.StragegyActivity" />
-        <activity android:name=".activity.ProxyActivity"></activity>
+        <activity android:name=".activity.ProxyActivity" />
+        <activity android:name=".activity.SingletonModeActivity"></activity>
     </application>
 
 </manifest>
