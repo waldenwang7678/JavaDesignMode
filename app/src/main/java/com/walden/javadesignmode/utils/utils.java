@@ -1,4 +1,4 @@
-package walden.com.javadesignmode.utils;
+package com.walden.javadesignmode.utils;
 
 import android.content.Context;
 import android.util.Log;

@@ -1,17 +1,18 @@
-package walden.com.javadesignmode.activity;
+package com.walden.javadesignmode.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.walden.javadesignmode.R;
+import com.walden.javadesignmode.mode.stragegy.BlackDoor;
+import com.walden.javadesignmode.mode.stragegy.BlockEnemy;
+import com.walden.javadesignmode.mode.stragegy.GreenLight;
+import com.walden.javadesignmode.mode.stragegy.StragegyManager;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
-import walden.com.javadesignmode.R;
-import walden.com.javadesignmode.mode.stragegy.BlackDoor;
-import walden.com.javadesignmode.mode.stragegy.BlockEnemy;
-import walden.com.javadesignmode.mode.stragegy.GreenLight;
-import walden.com.javadesignmode.mode.stragegy.StragegyManager;
 
 public class StragegyActivity extends AppCompatActivity {
     @InjectView(R.id.showtips)

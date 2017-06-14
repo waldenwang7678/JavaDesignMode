@@ -1,14 +1,15 @@
-package walden.com.javadesignmode.activity;
+package com.walden.javadesignmode.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.walden.javadesignmode.R;
+import com.walden.javadesignmode.mode.singleton.SingletonMode1;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
-import walden.com.javadesignmode.R;
-import walden.com.javadesignmode.mode.singleton.SingletonMode1;
 
 public class SingletonModeActivity extends AppCompatActivity {
 

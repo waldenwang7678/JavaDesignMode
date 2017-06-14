@@ -1,4 +1,4 @@
-package walden.com.javadesignmode;
+package com.walden.javadesignmode;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,14 +10,15 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.walden.javadesignmode.activity.ProxyActivity;
+import com.walden.javadesignmode.activity.SingletonModeActivity;
+import com.walden.javadesignmode.activity.StragegyActivity;
+import com.walden.javadesignmode.bean.StragegyBean;
+
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
-import walden.com.javadesignmode.activity.ProxyActivity;
-import walden.com.javadesignmode.activity.SingletonModeActivity;
-import walden.com.javadesignmode.activity.StragegyActivity;
-import walden.com.javadesignmode.bean.StragegyBean;
 
 public class MainActivity extends AppCompatActivity {
     public ArrayList<StragegyBean> mData = new ArrayList<>();

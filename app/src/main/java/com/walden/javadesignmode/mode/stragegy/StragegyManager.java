@@ -1,4 +1,4 @@
-package walden.com.javadesignmode.mode.stragegy;
+package com.walden.javadesignmode.mode.stragegy;
 
 /**
  * Created by Administrator on 2017/6/13 0013.

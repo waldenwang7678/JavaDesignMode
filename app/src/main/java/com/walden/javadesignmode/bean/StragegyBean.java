@@ -1,4 +1,4 @@
-package walden.com.javadesignmode.bean;
+package com.walden.javadesignmode.bean;
 
 /**
  * Created by Administrator on 2017/6/13 0013.
