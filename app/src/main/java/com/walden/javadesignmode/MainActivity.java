@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import walden.com.javadesignmode.activity.ProxyActivity;
+import walden.com.javadesignmode.activity.SingletonModeActivity;
 import walden.com.javadesignmode.activity.StragegyActivity;
 import walden.com.javadesignmode.bean.StragegyBean;
 
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         mData.add(new StragegyBean("策略模式", StragegyActivity.class));
         mData.add(new StragegyBean("代理模式", ProxyActivity.class));
+        mData.add(new StragegyBean("单例模式", SingletonModeActivity.class));
     }
 
     private void initView() {

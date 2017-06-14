@@ -25,6 +25,6 @@ public class SingletonModeActivity extends AppCompatActivity {
     @OnClick(R.id.singleton_bt1)
     void getHashCode() {
         SingletonMode1 mode1 = SingletonMode1.getInstance();
-        singleton_tv1.setText(mode1.hashCode());
+        singleton_tv1.setText(String.valueOf(mode1.hashCode()));
     }
 }
