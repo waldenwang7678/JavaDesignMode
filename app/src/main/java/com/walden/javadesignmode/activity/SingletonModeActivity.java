@@ -16,11 +16,19 @@ public class SingletonModeActivity extends AppCompatActivity {
     @InjectView(R.id.singleton_tv1)
     TextView singleton_tv1;
 
+    @InjectView(R.id.single_description)
+    TextView single_description;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singleton_mode);
         ButterKnife.inject(this);
+        initView();
+    }
+
+    private void initView() {
+        single_description.setText(getString(R.string.single_mode));
     }
 
     @OnClick(R.id.singleton_bt1)

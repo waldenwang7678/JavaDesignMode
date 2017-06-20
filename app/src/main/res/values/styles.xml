@@ -8,4 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="description">
+        <item name="android:hint">asd</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#777</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="result">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#f05050</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
 </resources>

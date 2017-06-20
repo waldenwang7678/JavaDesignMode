@@ -6,26 +6,23 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/proxy_bt1"
+        android:id="@+id/facade_bt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="dog_paly"
+        android:text="facade_bt1"
         android:textAllCaps="false" />
 
     <TextView
-        android:id="@+id/proxy_description"
-        style="@style/description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp" />
-
-    <TextView
-        android:id="@+id/proxy_tv1"
+        android:id="@+id/facade_tv"
         style="@style/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        tools:text="paly" />
+        android:layout_centerInParent="true" />
 
+    <TextView
+        android:id="@+id/facade_description"
+        style="@style/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

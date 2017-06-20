@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".activity.StragegyActivity" />
         <activity android:name=".activity.ProxyActivity" />
-        <activity android:name=".activity.SingletonModeActivity"/>
+        <activity android:name=".activity.SingletonModeActivity" />
+        <activity android:name=".activity.FactoryActivity" />
+        <activity android:name=".activity.FacadeModeActivity"></activity>
     </application>
 
 </manifest>

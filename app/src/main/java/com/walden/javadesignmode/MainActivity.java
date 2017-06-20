@@ -10,6 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.walden.javadesignmode.activity.FacadeModeActivity;
+import com.walden.javadesignmode.activity.FactoryActivity;
 import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
 import com.walden.javadesignmode.activity.StragegyActivity;
@@ -39,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("策略模式", StragegyActivity.class));
         mData.add(new StragegyBean("代理模式", ProxyActivity.class));
         mData.add(new StragegyBean("单例模式", SingletonModeActivity.class));
+        mData.add(new StragegyBean("工厂模式", FactoryActivity.class));
+        mData.add(new StragegyBean("门面模式", FacadeModeActivity.class));
     }
 
     private void initView() {
