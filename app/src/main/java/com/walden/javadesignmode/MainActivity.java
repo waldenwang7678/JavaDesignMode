@@ -4,17 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.BaseAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
 import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
 import com.walden.javadesignmode.activity.StragegyActivity;
+import com.walden.javadesignmode.adapter.MainPageAdapter;
 import com.walden.javadesignmode.bean.StragegyBean;
 
 import java.util.ArrayList;
@@ -46,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        list.setAdapter(new MyAdapter());
+        list.setAdapter(new MainPageAdapter(mData, MainActivity.this));
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -54,31 +52,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    class MyAdapter extends BaseAdapter {
-
-        @Override
-        public int getCount() {
-            return mData.size();
-        }
-
-        @Override
-        public Object getItem(int position) {
-            return mData.get(position);
-        }
-
-        @Override
-        public long getItemId(int position) {
-            return position;
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-            View view = View.inflate(MainActivity.this, R.layout.stragegy_mode_item, null);
-            TextView tv = (TextView) view.findViewById(R.id.item);
-            tv.setText(mData.get(position).name);
-            return view;
-        }
     }
 }
