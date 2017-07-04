@@ -20,7 +20,8 @@
         <activity android:name=".activity.ProxyActivity" />
         <activity android:name=".activity.SingletonModeActivity" />
         <activity android:name=".activity.FactoryActivity" />
-        <activity android:name=".activity.FacadeModeActivity"></activity>
+        <activity android:name=".activity.FacadeModeActivity" />
+        <activity android:name=".activity.AdapterActivity"></activity>
     </application>
 
 </manifest>

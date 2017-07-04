@@ -4,7 +4,7 @@ package com.walden.javadesignmode.mode.FacadeMode;
  * Created by Administrator on 2017/6/20 0020.
  */
 
-public class MiddleOrganization {
+public class MiddleOrganization {  
     static LetterProcess process;
 
     public static String sendLetter(String content, String address) {
