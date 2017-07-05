@@ -19,7 +19,7 @@ import butterknife.OnClick;
 public class FactoryActivity extends AppCompatActivity {
     @InjectView(R.id.show_skill)
     TextView show_skill;
-    @InjectView(R.id.factory_description)
+    @InjectView(R.id.description)
     TextView factory_description;
 
     @Override

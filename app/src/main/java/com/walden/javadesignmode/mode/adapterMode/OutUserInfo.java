@@ -45,11 +45,11 @@ public class OutUserInfo extends OutUser implements IUserInfo {
 
     @Override
     public String toString() {
-        return "name" + getUserName() + "\n" +
-                "HomeAddress" + getHomeAddress() + "\n" +
-                "MobileNumber" + getMobileNumber() + "\n" +
-                "officeMobileNumber" + getOfficeNumber() + "\n" +
-                "jobPosition" + getJobPosition() + "\n" +
-                "homeMobileNumber" + getHomeTelNumber() + "\n";
+        return "name : " + getUserName() + "\n" +
+                "  HomeAddress : " + getHomeAddress() + "\n" +
+                "  MobileNumber : " + getMobileNumber() + "\n" +
+                "  officeMobileNumber : " + getOfficeNumber() + "\n" +
+                "  jobPosition : " + getJobPosition() + "\n" +
+                "  homeMobileNumber : " + getHomeTelNumber() + "\n";
     }
 }

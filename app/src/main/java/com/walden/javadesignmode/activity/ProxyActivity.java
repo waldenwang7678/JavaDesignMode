@@ -15,7 +15,7 @@ import butterknife.OnClick;
 public class ProxyActivity extends AppCompatActivity {
     @InjectView(R.id.proxy_tv1)
     TextView proxy_tv1;
-    @InjectView(R.id.proxy_description)
+    @InjectView(R.id.description)
     TextView proxy_description;
     private AIPlayGame ai;
     private DogPlayGame dog;

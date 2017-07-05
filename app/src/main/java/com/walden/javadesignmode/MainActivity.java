@@ -7,11 +7,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.walden.javadesignmode.activity.AdapterActivity;
+import com.walden.javadesignmode.activity.BuilderActivity;
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
+import com.walden.javadesignmode.activity.ObserverActivity;
 import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
 import com.walden.javadesignmode.activity.StragegyActivity;
+import com.walden.javadesignmode.activity.TemplateMethodActivity;
 import com.walden.javadesignmode.adapter.MainPageAdapter;
 import com.walden.javadesignmode.bean.StragegyBean;
 
@@ -41,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("单例模式", SingletonModeActivity.class));
         mData.add(new StragegyBean("工厂模式", FactoryActivity.class));
         mData.add(new StragegyBean("门面模式", FacadeModeActivity.class));
+        mData.add(new StragegyBean("适配器模式", AdapterActivity.class));
+        mData.add(new StragegyBean("观察者模式", ObserverActivity.class));
+        mData.add(new StragegyBean("模板方法模式", TemplateMethodActivity.class));
+        mData.add(new StragegyBean("建造者模式", BuilderActivity.class));
     }
 
     private void initView() {

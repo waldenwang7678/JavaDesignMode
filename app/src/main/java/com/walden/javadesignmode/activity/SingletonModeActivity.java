@@ -16,7 +16,7 @@ public class SingletonModeActivity extends AppCompatActivity {
     @InjectView(R.id.singleton_tv1)
     TextView singleton_tv1;
 
-    @InjectView(R.id.single_description)
+    @InjectView(R.id.description)
     TextView single_description;
 
     @Override

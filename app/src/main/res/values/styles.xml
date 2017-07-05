@@ -9,6 +9,7 @@
     </style>
 
     <style name="description">
+        <item name="android:background">#99ceffc2</item>
         <item name="android:hint">asd</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#777</item>

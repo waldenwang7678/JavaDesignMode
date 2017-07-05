@@ -19,7 +19,7 @@ import butterknife.OnClick;
 public class FacadeModeActivity extends AppCompatActivity {
     @InjectView(R.id.facade_tv)
     TextView facade_tv;
-    @InjectView(R.id.facade_description)
+    @InjectView(R.id.description)
     TextView facade_description;
 
     @Override

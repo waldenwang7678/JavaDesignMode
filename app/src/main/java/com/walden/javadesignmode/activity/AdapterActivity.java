@@ -9,6 +9,7 @@ import com.walden.javadesignmode.mode.adapterMode.IUserInfo;
 import com.walden.javadesignmode.mode.adapterMode.OutUserInfo;
 import com.walden.javadesignmode.mode.adapterMode.UserInfo;
 
+import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 /**
@@ -20,13 +21,14 @@ public class AdapterActivity extends AppCompatActivity {
     TextView adapter_tv1;
     @InjectView(R.id.adapter_tv2)
     TextView adapter_tv2;
-    @InjectView(R.id.adapter_description)
+    @InjectView(R.id.description)
     TextView adapter_description;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adapter);
+        ButterKnife.inject(this);
         initView();
     }
 
@@ -39,6 +41,6 @@ public class AdapterActivity extends AppCompatActivity {
 
 
         adapter_tv1.setText(info.toString());
-        adapter_tv1.setText(info1.toString());
+        adapter_tv2.setText(info1.toString());
     }
 }
