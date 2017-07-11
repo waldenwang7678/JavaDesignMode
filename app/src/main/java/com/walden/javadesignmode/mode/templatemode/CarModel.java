@@ -17,7 +17,7 @@ public abstract class CarModel {
         return true;
     }
 
-    public final String run() {
+    final public String run() {
 
         StringBuilder builder = new StringBuilder();
 

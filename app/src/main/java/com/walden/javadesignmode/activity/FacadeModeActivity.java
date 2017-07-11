@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.FacadeMode.MiddleOrganization;
+import com.walden.javadesignmode.mode.facademode.MiddleOrganization;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

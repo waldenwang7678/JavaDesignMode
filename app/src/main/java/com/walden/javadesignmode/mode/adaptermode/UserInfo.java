@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.adapterMode;
+package com.walden.javadesignmode.mode.adaptermode;
 
 /**
  * Created by walden on 2017/7/4.

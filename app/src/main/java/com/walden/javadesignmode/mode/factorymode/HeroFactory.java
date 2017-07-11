@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.FactoryMode;
+package com.walden.javadesignmode.mode.factorymode;
 
 import android.util.Log;
 

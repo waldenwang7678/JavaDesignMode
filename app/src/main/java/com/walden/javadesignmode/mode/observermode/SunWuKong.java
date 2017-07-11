@@ -1,10 +1,8 @@
-package com.walden.javadesignmode.mode.observerMode;
+package com.walden.javadesignmode.mode.observermode;
 
 /**
  * Created by walden on 2017/7/5.
  */
-
-import android.view.SurfaceHolder;
 
 import java.util.ArrayList;
 

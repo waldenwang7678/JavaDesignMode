@@ -1,6 +1,5 @@
-package com.walden.javadesignmode.mode.adapterMode;
+package com.walden.javadesignmode.mode.adaptermode;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**

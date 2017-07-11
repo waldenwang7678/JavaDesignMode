@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.adapterMode.IUserInfo;
-import com.walden.javadesignmode.mode.adapterMode.OutUserInfo;
-import com.walden.javadesignmode.mode.adapterMode.UserInfo;
+import com.walden.javadesignmode.mode.adaptermode.IUserInfo;
+import com.walden.javadesignmode.mode.adaptermode.OutUserInfo;
+import com.walden.javadesignmode.mode.adaptermode.UserInfo;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.FactoryMode.Hero;
-import com.walden.javadesignmode.mode.FactoryMode.HeroFactory;
-import com.walden.javadesignmode.mode.FactoryMode.HuoQiang;
-import com.walden.javadesignmode.mode.FactoryMode.LaiEn;
-import com.walden.javadesignmode.mode.FactoryMode.LanMao;
-import com.walden.javadesignmode.mode.FactoryMode.WuYao;
+import com.walden.javadesignmode.mode.factorymode.Hero;
+import com.walden.javadesignmode.mode.factorymode.HeroFactory;
+import com.walden.javadesignmode.mode.factorymode.HuoQiang;
+import com.walden.javadesignmode.mode.factorymode.LaiEn;
+import com.walden.javadesignmode.mode.factorymode.LanMao;
+import com.walden.javadesignmode.mode.factorymode.WuYao;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

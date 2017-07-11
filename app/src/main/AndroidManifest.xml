@@ -24,7 +24,8 @@
         <activity android:name=".activity.AdapterActivity" />
         <activity android:name=".activity.ObserverActivity" />
         <activity android:name=".activity.TemplateMethodActivity" />
-        <activity android:name=".activity.BuilderActivity"></activity>
+        <activity android:name=".activity.BuilderActivity" />
+        <activity android:name=".activity.BridgeActivity"></activity>
     </application>
 
 </manifest>

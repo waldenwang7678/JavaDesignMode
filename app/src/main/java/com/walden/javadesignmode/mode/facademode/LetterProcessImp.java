@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.FacadeMode;
+package com.walden.javadesignmode.mode.facademode;
 
 /**
  * Created by Administrator on 2017/6/20 0020.

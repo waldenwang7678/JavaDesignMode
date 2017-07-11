@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.FactoryMode;
+package com.walden.javadesignmode.mode.factorymode;
 
 /**
  * Created by Administrator on 2017/6/20 0020.
