@@ -26,5 +26,14 @@
         功能： 基本方法的调用顺序安排,重心在于分离构建算法和具体的构建实现
         重要部分: builder 定义了如何构建部件  director : 定义了如何组合来构建产品,
     </string>
+    <string name="bridge_mode">
+        <Data>
+            <![CDATA[<font color="#ff6400" >业务抽象角色&#160;</font>引用<font  color="#ff6400">业务实现角色</font><br>]]>
+             可解决继承的缺点问题,将抽象化与实现化脱耦，使得二者可以独立地变化。<![CDATA[<br>]]>
+            (1)由<![CDATA[<font color="#f05050">抽象化角色</font>]]>和<![CDATA[<font color="#f05050"> 修正抽象化角色</font>]]> 组成的抽象化等级结构。<![CDATA[<br>]]>
+            (2)由<![CDATA[<font color="#f05050">实现化角色</font>]]>和<![CDATA[<font color="#f05050"> 两个具体实现化角色</font>]]>所组成的实现化等级结构。<![CDATA[<br>]]>
+            特点: 抽象化和实现化之间使用聚合关系而不是继承关系, 从而使两者可以相对独立地变化
+        </Data>
 
+    </string>
 </resources>

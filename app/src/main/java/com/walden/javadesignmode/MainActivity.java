@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.walden.javadesignmode.activity.AdapterActivity;
+import com.walden.javadesignmode.activity.BridgeActivity;
 import com.walden.javadesignmode.activity.BuilderActivity;
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("观察者模式", ObserverActivity.class));
         mData.add(new StragegyBean("模板方法模式", TemplateMethodActivity.class));
         mData.add(new StragegyBean("建造者模式", BuilderActivity.class));
+        mData.add(new StragegyBean("桥梁模式", BridgeActivity.class));
     }
 
     private void initView() {
