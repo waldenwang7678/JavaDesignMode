@@ -44,5 +44,5 @@
         \n 把请求命令和执行过程分别封装并分开, 有很好的扩展性 , 但如果命令非常多的话, 会导致类爆炸
 
     </string>
-    <string name="decorator_mode"> </string>
+    <string name="decorator_mode">装饰模式: 定义一个类(A),要装饰的类(B),A继承B , 将B传入A中,在A中对B进行装饰 </string>
 </resources>
