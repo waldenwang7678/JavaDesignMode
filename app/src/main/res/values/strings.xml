@@ -28,6 +28,7 @@
     </string>
     <string name="bridge_mode">
         <Data>
+            桥梁模式 <![CDATA[<br>]]>
             <![CDATA[<font color="#ff6400" >业务抽象角色&#160;</font>引用<font  color="#ff6400">业务实现角色</font><br>]]>
              可解决继承的缺点问题,将抽象化与实现化脱耦，使得二者可以独立地变化。<![CDATA[<br>]]>
             (1)由<![CDATA[<font color="#f05050">抽象化角色</font>]]>和<![CDATA[<font color="#f05050"> 修正抽象化角色</font>]]> 组成的抽象化等级结构。<![CDATA[<br>]]>
@@ -36,4 +37,12 @@
         </Data>
 
     </string>
+    <string name="command_mode">命令模式 -> 三个角色:
+        \n Receiver 收到命令后干活的
+        \n Command 发放命令的
+        \n Invoker 接头人, 接收命令并下发
+        \n 把请求命令和执行过程分别封装并分开, 有很好的扩展性 , 但如果命令非常多的话, 会导致类爆炸
+
+    </string>
+    <string name="decorator_mode"> </string>
 </resources>

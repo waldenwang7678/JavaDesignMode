@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.walden.javadesignmode.activity.CommandActivity">
+
+    <include layout="@layout/description" />
+
+    <RelativeLayout
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_margin="10dp"
+        android:background="@drawable/command_image_shape"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/command_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="类图 : " />
+
+        <ImageView
+            android:id="@+id/command_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/command_t"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/command_mode" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/command_result"
+        style="@style/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/command_bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="addrequire"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/command_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="changeCode"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/command_bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="del_page"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

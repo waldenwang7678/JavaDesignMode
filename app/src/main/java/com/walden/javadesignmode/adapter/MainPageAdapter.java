@@ -43,7 +43,7 @@ public class MainPageAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = View.inflate(mContext, R.layout.stragegy_mode_item, null);
         TextView tv = (TextView) view.findViewById(R.id.item);
-        tv.setText(mData.get(position).name);
+        tv.setText(position+1+"-"+mData.get(position).name);
         return view;
     }
 }

@@ -25,7 +25,9 @@
         <activity android:name=".activity.ObserverActivity" />
         <activity android:name=".activity.TemplateMethodActivity" />
         <activity android:name=".activity.BuilderActivity" />
-        <activity android:name=".activity.BridgeActivity"></activity>
+        <activity android:name=".activity.BridgeActivity" />
+        <activity android:name=".activity.CommandActivity" />
+        <activity android:name=".activity.DecoratorActivity"></activity>
     </application>
 
 </manifest>
