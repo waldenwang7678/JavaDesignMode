@@ -27,7 +27,10 @@
         <activity android:name=".activity.BuilderActivity" />
         <activity android:name=".activity.BridgeActivity" />
         <activity android:name=".activity.CommandActivity" />
-        <activity android:name=".activity.DecoratorActivity"></activity>
+        <activity android:name=".activity.DecoratorActivity" />
+        <activity android:name=".activity.IteratorActivity" />
+        <activity android:name=".activity.CompositeActivity" />
+        <activity android:name=".mode.compositemode.Main2Activity"></activity>
     </application>
 
 </manifest>

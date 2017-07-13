@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.singleton.SingletonMode1;
+import com.walden.javadesignmode.mode.singletonmode.SingletonMode1;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

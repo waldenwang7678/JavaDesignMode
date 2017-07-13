@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.proxy.AIPlayGame;
-import com.walden.javadesignmode.mode.proxy.DogPlayGame;
+import com.walden.javadesignmode.mode.proxymode.AIPlayGame;
+import com.walden.javadesignmode.mode.proxymode.DogPlayGame;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

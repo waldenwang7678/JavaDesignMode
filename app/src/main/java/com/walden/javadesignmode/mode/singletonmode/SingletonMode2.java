@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.singleton;
+package com.walden.javadesignmode.mode.singletonmode;
 
 /**
  * Created by Administrator on 2017/6/13 0013.

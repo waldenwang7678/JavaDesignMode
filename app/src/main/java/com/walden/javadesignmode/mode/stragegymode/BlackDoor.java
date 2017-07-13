@@ -1,4 +1,4 @@
-package com.walden.javadesignmode.mode.stragegy;
+package com.walden.javadesignmode.mode.stragegymode;
 
 
 /**

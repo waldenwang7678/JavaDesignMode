@@ -5,10 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.walden.javadesignmode.R;
-import com.walden.javadesignmode.mode.stragegy.BlackDoor;
-import com.walden.javadesignmode.mode.stragegy.BlockEnemy;
-import com.walden.javadesignmode.mode.stragegy.GreenLight;
-import com.walden.javadesignmode.mode.stragegy.StragegyManager;
+import com.walden.javadesignmode.mode.stragegymode.BlackDoor;
+import com.walden.javadesignmode.mode.stragegymode.BlockEnemy;
+import com.walden.javadesignmode.mode.stragegymode.GreenLight;
+import com.walden.javadesignmode.mode.stragegymode.StragegyManager;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

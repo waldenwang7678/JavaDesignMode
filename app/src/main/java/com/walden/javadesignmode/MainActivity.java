@@ -11,9 +11,11 @@ import com.walden.javadesignmode.activity.AdapterActivity;
 import com.walden.javadesignmode.activity.BridgeActivity;
 import com.walden.javadesignmode.activity.BuilderActivity;
 import com.walden.javadesignmode.activity.CommandActivity;
+import com.walden.javadesignmode.activity.CompositeActivity;
 import com.walden.javadesignmode.activity.DecoratorActivity;
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
+import com.walden.javadesignmode.activity.IteratorActivity;
 import com.walden.javadesignmode.activity.ObserverActivity;
 import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
@@ -55,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("桥梁模式", BridgeActivity.class));
         mData.add(new StragegyBean("命令模式", CommandActivity.class));
         mData.add(new StragegyBean("装饰模式", DecoratorActivity.class));
+        mData.add(new StragegyBean("迭代器模式", IteratorActivity.class));
+        mData.add(new StragegyBean("组合模式", CompositeActivity.class));
     }
 
     private void initView() {
