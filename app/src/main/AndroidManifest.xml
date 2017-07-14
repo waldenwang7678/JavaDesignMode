@@ -31,7 +31,8 @@
         <activity android:name=".activity.IteratorActivity" />
         <activity android:name=".activity.CompositeActivity" />
         <activity android:name=".mode.compositemode.Main2Activity" />
-        <activity android:name=".activity.ChainActivity"></activity>
+        <activity android:name=".activity.ChainActivity" />
+        <activity android:name=".activity.VisitorActivity"></activity>
     </application>
 
 </manifest>

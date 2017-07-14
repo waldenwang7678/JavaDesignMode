@@ -22,6 +22,7 @@ import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
 import com.walden.javadesignmode.activity.StragegyActivity;
 import com.walden.javadesignmode.activity.TemplateMethodActivity;
+import com.walden.javadesignmode.activity.VisitorActivity;
 import com.walden.javadesignmode.adapter.MainPageAdapter;
 import com.walden.javadesignmode.bean.StragegyBean;
 
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("迭代器模式", IteratorActivity.class));
         mData.add(new StragegyBean("组合模式", CompositeActivity.class));
         mData.add(new StragegyBean("责任链模式", ChainActivity.class));
+        mData.add(new StragegyBean("访问模式", VisitorActivity.class));
     }
 
     private void initView() {

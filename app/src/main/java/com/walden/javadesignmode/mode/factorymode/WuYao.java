@@ -7,6 +7,6 @@ package com.walden.javadesignmode.mode.factorymode;
 public class WuYao implements Hero {
     @Override
     public String Skill() {
-        return "弹弹弹, 弹走献血, 收割生命";
+        return "弹弹弹, 弹走鲜血, 收割生命";
     }
 }
