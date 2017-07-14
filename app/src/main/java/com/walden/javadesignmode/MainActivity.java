@@ -10,6 +10,7 @@ import android.widget.ListView;
 import com.walden.javadesignmode.activity.AdapterActivity;
 import com.walden.javadesignmode.activity.BridgeActivity;
 import com.walden.javadesignmode.activity.BuilderActivity;
+import com.walden.javadesignmode.activity.ChainActivity;
 import com.walden.javadesignmode.activity.CommandActivity;
 import com.walden.javadesignmode.activity.CompositeActivity;
 import com.walden.javadesignmode.activity.DecoratorActivity;
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("装饰模式", DecoratorActivity.class));
         mData.add(new StragegyBean("迭代器模式", IteratorActivity.class));
         mData.add(new StragegyBean("组合模式", CompositeActivity.class));
+        mData.add(new StragegyBean("责任链模式", ChainActivity.class));
     }
 
     private void initView() {

@@ -30,7 +30,8 @@
         <activity android:name=".activity.DecoratorActivity" />
         <activity android:name=".activity.IteratorActivity" />
         <activity android:name=".activity.CompositeActivity" />
-        <activity android:name=".mode.compositemode.Main2Activity"></activity>
+        <activity android:name=".mode.compositemode.Main2Activity" />
+        <activity android:name=".activity.ChainActivity"></activity>
     </application>
 
 </manifest>
