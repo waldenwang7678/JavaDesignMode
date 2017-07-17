@@ -87,10 +87,13 @@
         被final修饰的变量不可被拷贝\n
 
     </string>
-    <string name="mediator_mode"><![CDATA[<strong>中介模式：</strong>]> <![CDATA[<br>]]>
+    <string name="mediator_mode"><![CDATA[<strong>中介模式：</strong>]]> <![CDATA[<br>]]>
         <![CDATA[几个有<font color="#f05050"><strong>相互关联</strong></font>的类中间添加一个中介者，各个类除了中介者不与其他类联系，降低了类之间的耦合性]]><![CDATA[<br>]]>
-        <![CDATA[<strong>关键角色:</strong>]> 抽象中介者角色 ， 具体中介者角色，同事角色<![CDATA[<br>]]>
-        <![CDATA[<strong>缺点：</strong>]> 如果colleague类比较多，且逻辑复杂的话，虽然结构清晰了，但中介类会很庞大很复杂， 让维护更加困难<![CDATA[<br>]]>
+        <![CDATA[<strong>关键角色:</strong>]]> 抽象中介者角色 ， 具体中介者角色，同事角色<![CDATA[<br>]]>
+        <![CDATA[<strong>缺点：</strong>]]> 如果colleague类比较多，且逻辑复杂的话，虽然结构清晰了，但中介类会很庞大很复杂， 让维护更加困难<![CDATA[<br>]]>
         典型的MVC结构就用了中介模式， controller充当中介者的角色，处理View和数据之间的关系。<![CDATA[<br>]]>
+    </string>
+    <string name="interpreter_mode"> 解释器模式：\n
+        
     </string>
 </resources>
