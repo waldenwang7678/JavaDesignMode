@@ -32,7 +32,8 @@
         <activity android:name=".activity.CompositeActivity" />
         <activity android:name=".mode.compositemode.Main2Activity" />
         <activity android:name=".activity.ChainActivity" />
-        <activity android:name=".activity.VisitorActivity"></activity>
+        <activity android:name=".activity.VisitorActivity" />
+        <activity android:name=".activity.StateActivity"></activity>
     </application>
 
 </manifest>
