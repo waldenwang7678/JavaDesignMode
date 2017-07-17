@@ -17,7 +17,9 @@ import com.walden.javadesignmode.activity.DecoratorActivity;
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
 import com.walden.javadesignmode.activity.IteratorActivity;
+import com.walden.javadesignmode.activity.MediatorActivity;
 import com.walden.javadesignmode.activity.ObserverActivity;
+import com.walden.javadesignmode.activity.PrototypeActivity;
 import com.walden.javadesignmode.activity.ProxyActivity;
 import com.walden.javadesignmode.activity.SingletonModeActivity;
 import com.walden.javadesignmode.activity.StateActivity;
@@ -65,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("责任链模式", ChainActivity.class));
         mData.add(new StragegyBean("访问模式", VisitorActivity.class));
         mData.add(new StragegyBean("状态模式", StateActivity.class));
+        mData.add(new StragegyBean("原型模式", PrototypeActivity.class));
+        mData.add(new StragegyBean("中介模式", MediatorActivity.class));
     }
 
     private void initView() {

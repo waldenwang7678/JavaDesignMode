@@ -33,7 +33,9 @@
         <activity android:name=".mode.compositemode.Main2Activity" />
         <activity android:name=".activity.ChainActivity" />
         <activity android:name=".activity.VisitorActivity" />
-        <activity android:name=".activity.StateActivity"></activity>
+        <activity android:name=".activity.StateActivity" />
+        <activity android:name=".activity.PrototypeActivity" />
+        <activity android:name=".activity.MediatorActivity"></activity>
     </application>
 
 </manifest>

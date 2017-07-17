@@ -76,5 +76,21 @@
         优点： 避免程序的（结构）复杂性，减少了状态条件的判断,状态的变换放置在类中实现\n
         缺点： 如果状态过多，会造成类膨胀
     </string>
-    <string name="prototype_mode"> 原型模式： </string>
+    <string name="prototype_mode"> 原型模式： \n
+        不通过new关键字来产生一个对象，而是通过对象拷贝来实现的模式
+        （对象拷贝时， 类的构造方法不会被执行)\n
+        情形：对象初始化需要消化资源较多或new需要大量数据准备和权限申请，
+        浅拷贝和深拷贝：\n
+        浅拷贝： java Object提供的clone ， 只会拷贝对象本身， 不会拷贝对象内部的数组和引用对象，
+            拷贝出来的对象和被拷贝对象 内部对象引用指向相同的内存地址，内部数组也一样\n
+        深拷贝： 对对象内部的对象和数组再单独拷贝\n
+        被final修饰的变量不可被拷贝\n
+
+    </string>
+    <string name="mediator_mode"><![CDATA[<strong>中介模式：</strong>]> <![CDATA[<br>]]>
+        <![CDATA[几个有<font color="#f05050"><strong>相互关联</strong></font>的类中间添加一个中介者，各个类除了中介者不与其他类联系，降低了类之间的耦合性]]><![CDATA[<br>]]>
+        <![CDATA[<strong>关键角色:</strong>]> 抽象中介者角色 ， 具体中介者角色，同事角色<![CDATA[<br>]]>
+        <![CDATA[<strong>缺点：</strong>]> 如果colleague类比较多，且逻辑复杂的话，虽然结构清晰了，但中介类会很庞大很复杂， 让维护更加困难<![CDATA[<br>]]>
+        典型的MVC结构就用了中介模式， controller充当中介者的角色，处理View和数据之间的关系。<![CDATA[<br>]]>
+    </string>
 </resources>
