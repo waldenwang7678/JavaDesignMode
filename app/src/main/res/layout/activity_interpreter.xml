@@ -21,6 +21,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/interpreter_img" />
 
+    <EditText
+        android:hint="输入计算表达式，仅限加减"
+        android:id="@+id/interpreter_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/interpreter_result" />
+
     <Button
         android:id="@+id/interpreter_bt1"
         android:layout_width="wrap_content"

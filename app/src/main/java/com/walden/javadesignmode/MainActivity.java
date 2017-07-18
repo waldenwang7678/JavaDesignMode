@@ -16,6 +16,7 @@ import com.walden.javadesignmode.activity.CompositeActivity;
 import com.walden.javadesignmode.activity.DecoratorActivity;
 import com.walden.javadesignmode.activity.FacadeModeActivity;
 import com.walden.javadesignmode.activity.FactoryActivity;
+import com.walden.javadesignmode.activity.InterpreterActivity;
 import com.walden.javadesignmode.activity.IteratorActivity;
 import com.walden.javadesignmode.activity.MediatorActivity;
 import com.walden.javadesignmode.activity.ObserverActivity;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new StragegyBean("状态模式", StateActivity.class));
         mData.add(new StragegyBean("原型模式", PrototypeActivity.class));
         mData.add(new StragegyBean("中介模式", MediatorActivity.class));
+        mData.add(new StragegyBean("解释器模式", InterpreterActivity.class));
     }
 
     private void initView() {
