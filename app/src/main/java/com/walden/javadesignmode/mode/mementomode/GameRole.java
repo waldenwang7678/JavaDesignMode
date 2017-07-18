@@ -15,13 +15,19 @@ public class GameRole {
     }
 
     public String show() {
-        return "血量： " + vit + " 攻击: " + atk;
+        if (atk == 0 || vit == 0) {
+            return "Game Over~";
+        }
+        return "血量： " + vit + " \n攻击: " + atk;
     }
 
 
     public void fightBoss() {
-        atk = 0;
-        vit = 0;
+        if (atk == 0 || vit == 0) {
+            return;
+        }
+        atk = atk + 5;
+        vit = vit - 10;
     }
 
     /**
@@ -30,7 +36,7 @@ public class GameRole {
      * @return
      */
     public RoleStateMemento saveMemento() {
-        return null;
+        return new RoleStateMemento(atk, vit);
     }
 
     /**

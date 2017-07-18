@@ -21,6 +21,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="15dp"
-        android:text="show"
+        android:text="目前状态"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/memento_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:text="打怪"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/memento_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:text="满血复活"
+        android:textAllCaps="false" />
+
 </RelativeLayout>

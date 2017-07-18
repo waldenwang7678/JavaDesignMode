@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaDesignMode.iml" filepath="$PROJECT_DIR$/JavaDesignMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaDesignMode.iml" filepath="$PROJECT_DIR$/javaDesignMode.iml" />
     </modules>
   </component>
 </project>
