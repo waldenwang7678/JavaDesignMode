@@ -94,6 +94,21 @@
         典型的MVC结构就用了中介模式， controller充当中介者的角色，处理View和数据之间的关系。<![CDATA[<br>]]>
     </string>
     <string name="interpreter_mode"> 解释器模式：\n
-        
+        按照规定语法进行解释的模式, 文法+解释器\n
+        文法：规定语句的组合形式， \n
+        解释器：用来解释指定文法结构的语句\n
+        例子：perl语言的语法 + 解释器 -> 代码执行
+    </string>
+    <string name="flyweight_mode">享元模式：\n
+        对象共享,把已经创建的对象放置在集合中保存，下次使用时候直接在集合中取出，如果集合中没有这个对象，
+        就创建并保存在集合中
+    </string>
+    <string name="memento_mode">备忘录模式：\n
+        在不破坏封闭的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+        这样以后就可将该对象恢复到原先保存的状态\n
+        Origintor:负责创建一个备忘录，记住当前时刻自身状态，\n
+        Memento:存储Origintor内部状态，并可以防止其他对象访问备忘录\n
+        careTaker：负责管理备忘录，不能访问备忘录\n
+
     </string>
 </resources>

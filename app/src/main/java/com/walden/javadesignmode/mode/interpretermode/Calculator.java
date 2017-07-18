@@ -21,7 +21,7 @@ public class Calculator {
                     left = stack.pop();
                     int index = getStrIndex(str, ++i);
                     right = new VarExpression(str.substring(i, index));
-                    i = index-1; 
+                    i = index-1;
                     stack.push(new AddExpression(left, right));
                     break;
                 case '-':   // 同上

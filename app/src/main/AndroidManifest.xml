@@ -36,7 +36,9 @@
         <activity android:name=".activity.StateActivity" />
         <activity android:name=".activity.PrototypeActivity" />
         <activity android:name=".activity.MediatorActivity" />
-        <activity android:name=".activity.InterpreterActivity"></activity>
+        <activity android:name=".activity.InterpreterActivity" />
+        <activity android:name=".activity.FlyweightActivity" />
+        <activity android:name=".activity.MementoActivity"></activity>
     </application>
 
 </manifest>
