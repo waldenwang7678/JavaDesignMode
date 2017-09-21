@@ -4,10 +4,11 @@ import java.util.Hashtable;
 
 /**
  * Created by wangjt on 2017/7/18.
+ *
  */
 
 public class XiaomingFactory {
-    Hashtable table = new Hashtable();
+    Hashtable table = new Hashtable();   //享元池
 
     public Xiaoming getXiaoming(String str) {
         Xiaoming xiaoming = (Xiaoming) table.get(str);

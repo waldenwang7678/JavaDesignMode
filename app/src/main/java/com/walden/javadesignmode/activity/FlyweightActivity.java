@@ -31,6 +31,9 @@ public class FlyweightActivity extends AppCompatActivity {
         description.setText(getString(R.string.flyweight_mode));
     }
 
+    /**
+     * 内部状态的享元模式 , 外部状态的享元模式: 享元对象共有属性共享, 个性属性单独添加
+     */
     @OnClick(R.id.flyweight_bt1)
     void flyweight_bt1() {
         StringBuilder str = new StringBuilder();
